@@ -43,6 +43,20 @@ header li {
     body {
         border: 1px solid blue;
     }
+
+
+    .gallery-image-area {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gallery-image {
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+    .gallery-image img {
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
 }
 
 
