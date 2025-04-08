@@ -50,9 +50,9 @@ header li {
         display: flex;
         flex-wrap: wrap;
     }
-    .gallery-image-area {
+    /* .gallery-image-area {
        
-    }
+    } */
     .gallery-image {
         margin: 0 auto;
     }
