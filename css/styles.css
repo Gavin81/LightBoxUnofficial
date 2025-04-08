@@ -29,6 +29,7 @@ input::placeholder {
 header li {
     list-style: none;
 }
+
 .gallery-image img {
     display: block;
     margin: 10px auto;
@@ -45,17 +46,18 @@ header li {
     }
 
 
-    .gallery-image-area {
+    .main-gallery-area {
         display: flex;
-        flex-wrap: ;
+        flex-wrap: wrap;
+    }
+    .gallery-image-area {
+       
     }
     .gallery-image {
-        /* display: flex;
-        flex-wrap: wrap; */
+        margin: 0 auto;
     }
     .gallery-image img {
-        /* display: flex;
-        flex-wrap: wrap; */
+       
     }
 }
 
