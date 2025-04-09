@@ -10,7 +10,7 @@
 </head>
 <body>
 <header>
-    <input id="search" name="search" data-toggle="hideseek" type="text" data-list=".image" placeholder="Search...">
+    <input type="search" name="search" id="search" data-toggle="hideseek" type="" data-list=".image" placeholder="Search">
     <ul class="list">
     <li></li>
     </ul>
@@ -120,11 +120,10 @@
 </div>
 
 <script src="js/baguetteBox.min.js" async></script>
+<script src="js/searchFilter.js"></script>
 <script>
     window.addEventListener('load', function() {
-        baguetteBox.run('.gallery', filter() {
-            
-        });
+        baguetteBox.run('.gallery');
     });
 </script>
 </body>

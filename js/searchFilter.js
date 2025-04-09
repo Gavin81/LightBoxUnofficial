@@ -1,0 +1,1 @@
+const search = new filter('search', 'data-caption');
