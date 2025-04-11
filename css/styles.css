@@ -14,7 +14,7 @@ header {
     padding: 0;
 }
 input {
-    border: 1px solid turquoise;
+    /* border: 1px solid turquoise; */
     border-radius: 5px;
     display: block;
     margin: 0 auto;
@@ -29,10 +29,14 @@ input::placeholder {
 header li {
     list-style: none;
 }
-
+.main-gallery-area {
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    grid-gap: 10px;
+}
 .gallery-image img {
     display: block;
-    margin: 10px auto;
+    margin: auto;
 }
 .gallery-image p {
     display: none;
@@ -45,25 +49,24 @@ header li {
         border: 1px solid blue;
     }
 
-
     .main-gallery-area {
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex;
+        flex-wrap: wrap; */
+        grid-template-columns: repeat(4, 1fr);
     }
-    /* .gallery-image-area {
-       
-    } */
     .gallery-image {
         margin: 0 auto;
-    }
-    .gallery-image img {
-       
     }
 }
 
 
 @media screen and (min-width: 1024px) {
+    
     body {
         border: 1px solid black;
+    }
+
+    .main-gallery-area {
+        /* grid-template-columns: repeat(4, 1fr); */
     }
 }
