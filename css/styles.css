@@ -3,7 +3,7 @@
 }
 
 body {
-    border: 1px solid red;
+    
 }
 
 /* MEDIA QUERIES */
@@ -30,7 +30,6 @@ header li {
     list-style: none;
 }
 .main-gallery-area {
-    border: 1px solid red;
     display: grid;
     grid-template-columns: auto-fit;
     grid-gap: 5px;
@@ -46,7 +45,7 @@ header li {
 
 /* @media screen and (min-width: 768px) { */
     body {
-        border: 1px solid blue;
+        
     }
 
     .main-gallery-area {
@@ -64,7 +63,7 @@ header li {
 /* @media screen and (min-width: 1024px) { */
     
     body {
-        border: 1px solid black;
+        
     }
 
     .main-gallery-area {
