@@ -31,7 +31,7 @@ header li {
 }
 .main-gallery-area {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 430px);
+    grid-template-columns: repeat(auto-fit, 430px);
     grid-gap: 5px;
 }
 .gallery-image {
