@@ -32,12 +32,11 @@ header li {
 .main-gallery-area {
     border: 1px solid red;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto-fit;
     grid-gap: 5px;
 }
 .gallery-image img {
-    display: block;
-    margin: auto;
+    
 }
 .gallery-image p {
     display: none;
