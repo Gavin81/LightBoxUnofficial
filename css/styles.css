@@ -31,7 +31,11 @@ header li {
 }
 .main-gallery-area {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 430px);
+    max-width: ;
+    /* grid-template-columns: repeat(auto-fit, 430px); */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 200px 200px;
     grid-gap: 5px;
 }
 .gallery-image {
