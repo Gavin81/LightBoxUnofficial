@@ -30,9 +30,9 @@ header li {
     list-style: none;
 }
 .main-gallery-area {
-    border: 1px solid red;
     display: grid;
-    width: 100%;
+    margin: auto;
+    width: 50%;
     /* grid-template-columns: repeat(auto-fit, 430px); */
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
@@ -44,7 +44,6 @@ header li {
     justify-content: center;
 }
 .gallery-image {
-    border: 1px solid blue;
     margin: auto;
     /* width: 200px;
     height: 200px; */
