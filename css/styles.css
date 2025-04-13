@@ -30,6 +30,7 @@ header li {
     list-style: none;
 }
 .main-gallery-area {
+    border: 1px solid red;
     display: grid;
     width: 100%;
     /* grid-template-columns: repeat(auto-fit, 430px); */
@@ -37,15 +38,16 @@ header li {
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     /* grid-template-columns: repeat(4, 1fr); */
     /* grid-template-columns: repeat(4, minmax(200px, 1fr)); */
-    grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
     /* grid-template-rows: 100px 200px; */
-    grid-gap: 5px;
+    grid-gap: 0px;
     justify-content: center;
 }
 .gallery-image {
+    border: 1px solid blue;
     margin: auto;
-    width: 200px;
-    height: 200px;
+    /* width: 200px;
+    height: 200px; */
 }
 .gallery-image img {
     
