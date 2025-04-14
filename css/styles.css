@@ -32,7 +32,7 @@ header li {
 .main-gallery-area {
     display: grid;
     margin: auto;
-    width: 50%;
+    width: 100%;
     /* grid-template-columns: repeat(auto-fit, 430px); */
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
